@@ -1,27 +1,137 @@
 <!DOCTYPE html>
 <html lang = "es">
-  
   <head>
-    <meta charset = "UTF-8">
-    <link rel="stylesheet" href="../../css/Cuenta/inicio_sesion.css">
-    <link rel = "icon" href = "../../Images/IBM_logo.svg.png">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../../images/IBM_logo.svg.png">
+    <link rel="stylesheet" href="../../css/cuenta/inicio_sesion.css">
+    <title>Equipo de desarrollo - Open Hands</title>
   </head>
-
   <body>
+    
+    <header id = "my_head">
 
-    <form action="/">
+      <a id = "logo-header" href = "../index.html">
   
-      <input type = "text" placeholder = "Correo electrónico" required><br>
-      <input type = "password" placeholder = "Contraseña" required><br>
-      <button type = "submit">Iniciar sesion</button>
+        <span class = "site-name">Open Hands</span>
   
-    </form>
+      </a>
   
-    <a href = "registro.html">Crear cuenta</a>
+      <nav>
+  
+        <ul>
+
+          <li>
+            <a href = "https://www.ptech.org/es/" target = "_blank" rel = "noopener noreferrer">
+              PTECH
+            </a>
+          </li>
+  
+          <li>
+            <a href = "#" target = "_blank" rel = "noopener noreferrer">
+                Aplicación
+            </a>
+          </li>
+  
+          <li>
+            <a href = "https://github.com/AngelGabriel-ManzanoContreras/openhands-web" target = "_blank">
+                Repositorio
+            </a>
+          </li>
+            
+          <li>
+            <div class = "dropdown">
+              <button>Ingresa aquí</button>
+                <div class = "dropdown-content">
+                  <a href = "cuenta/inicio_sesion.html">
+                    Inicia sesión
+                  </a>
+                  <a href="cuenta/registro.html">
+                    Registrate
+                  </a>
+                </div>
+            </div>
+          </li>
+          
+          <li>
+            <a href = "learning.html">
+              Aprendizaje
+            </a>
+          </li>
+          
+        </ul>
+        
+      </nav>
+        
+      <section id = "main-content">
+
+        <header>
+          <h1>
+            Inicia sesion
+          </h1>
+        </header>
+
+        <article id = "lista_1"></article>
+
+        <form action="/">
+  
+          <input type = "text" placeholder = "Correo electrónico" required><br>
+          <input type = "password" placeholder = "Contraseña" required><br>
+          <button type = "submit">Iniciar sesion</button>
+      
+        </form>
+      
+        <a href = "registro.html">Crear cuenta</a>
+
+      </section>
   
     <footer>
-      <p><small>Sin derechos de autor ni fines de lucro <a class = "conjunto_IBM" href="https://ptech.org/es/"><strong>PTech IBM</strong></a></small></p>
-    </footer>
+    
+      <p>
+    
+        <small>
+          Sin derechos de autor ni fines de lucro 
+          <a class = "conjunto_IBM" href="https://ptech.org/es/" target = "_blank">
+            <strong>
+              PTech IBM
+            </strong>
+          </a>
+        </small>
+        <br>
+        <small>
+          <a id = "repositorio" href = "https://github.com/AngelGabriel-ManzanoContreras" target = "_blank" rel = "noopener noreferrer">
+            Repositorio en GitHub
+          </a>
+        </small>
+        <br>
+        <small>
+          <p>
+            Para enseñar a nuestros usuarios el lenguaje de señas, usaremos como apoyo el canal de YouTube: 
+            <a id = "canalYT" href = "https://www.youtube.com/channel/UCRq3Bms83eRAYzxTvawt5Vw" rel = "noopener noreferrer">
+              <strong>
+                LSM Enseñando
+              </strong>
+            </a>
+          </p>
+        </small>
+        <small>
+          <p>
+            <a id = "equipo" href = "../equipo-de-desarrollo.html" rel = "noopener noreferrer">
+              Equipo de desarrollo
+            </a>
+          </p>
+        </small>
+    
+        <small>
+          <p>
+            <a href = "inicio_sesion.html">
+              Ingresa
+            </a>
+          </p>
+        </small>
+      </p>
+    
+    </footer>  
 
   </body>
+
 </html>
