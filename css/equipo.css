@@ -7,7 +7,7 @@
   border-width: 10px;
   border-style: double dotted double dotted;
   border-radius: 50%;
-}  
+}
 
 #my_head {
   background: #333;
@@ -73,6 +73,13 @@ nav {
     background-color: #333;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 01.2em);
   }
+
+.ingresa {
+  background-color: #333;
+  border: #333;
+  font-size: medium;
+  color: #ffffff;
+}
       
   .dropdown-content a {
     display: block;
@@ -90,7 +97,11 @@ nav {
     display: block;
     color: #0b76a6;
   }
-      
+
+  
+.titulo {
+  text-align: center;
+}
 body {
   margin: 0;
   padding: 0;
@@ -129,6 +140,10 @@ body {
 
 #canalYT {
   color: royalblue;
+}
+
+.cajasC {
+  text-align: center;
 }
 
 a {

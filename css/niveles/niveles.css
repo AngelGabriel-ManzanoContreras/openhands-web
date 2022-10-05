@@ -79,7 +79,14 @@
       display: block;
       color: #0b76a6;
     }
-        
+
+  .ingresa {
+    background-color: #333;
+    border: #333;
+    font-size: medium;
+    color: #ffffff;
+  }
+
   body {
     margin: 0;
     padding: 0;
